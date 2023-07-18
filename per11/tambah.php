@@ -26,20 +26,10 @@ if(isset($_POST["Submit"])){
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-
-		<title>Tambah Data Barang</title>
-</head>
-<body>
-<head>
-    <title>Form Pendaftaran Siswa Baru</title>
+<title>Form Pendaftaran Siswa Baru</title>
     <!-- Link Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
 <body>
-
 <div class="container mt-5">
     <h2 class="text-center mb-4">Form Pendaftaran Siswa Baru</h2>
     <form action="tambah.php" method="POST">

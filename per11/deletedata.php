@@ -3,7 +3,7 @@ include'include/db.php';
 $DeleteFromURL=$_GET['Delete'];
 
 mysqli_query($connection,
-	"DELETE FROM printer WHERE no='$DeleteFromURL'"
+	"DELETE FROM data WHERE no='$DeleteFromURL'"
 );
 
 header("location:index.php");
